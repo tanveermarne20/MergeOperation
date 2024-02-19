@@ -1,4 +1,5 @@
-![Sample Image](https://blog.eduonix.com/wp-content/uploads/2015/04/image11.jpg)
+
+<img src="./Orders.png" style="margin: auto; width: 90%;"> 
 
 ## MergeOperation
 
