@@ -6,13 +6,13 @@
 2. It is often referred to as "upsert" because it can perform an update if a matching record is found, or insert a new record if no match is found
 
 3. MERGE INTO target_table AS target
-USING source_table AS source
-ON condition
-WHEN MATCHED THEN
-    UPDATE SET column1 = value1, column2 = value2, ...
-WHEN NOT MATCHED THEN
-    INSERT (column1, column2, ...)
-    VALUES (value1, value2, ...);
+ |USING source_table AS source |
+ |ON condition |
+ |WHEN MATCHED THEN |
+  |  UPDATE SET column1 = value1, column2 = value2, ... |
+ |WHEN NOT MATCHED THEN |
+  |  INSERT (column1, column2, ...) |
+   | VALUES (value1, value2, ...); |
     
 4. target_table: This is the table you want to modify or update based on the data in the source table. 
 5. source_table: This is the table providing the data that you want to merge into the target table.
