@@ -1,4 +1,4 @@
-<img src="./fi.jpg" style="margin: auto; width: 90%;"> 
+<img src="./fi.jpg" style="margin: auto; width: 100%;"> 
 
 ## MergeOperation
 
