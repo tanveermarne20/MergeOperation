@@ -74,3 +74,22 @@ INSERT (EID,FNAME,SALARY,DID) VALUES(SRC.EID,SRC.FNAME,SRC.SALARY,SRC.DID);
 
 
 
+--==============================================================================
+SELECT *FROM EMPLOYEES;
+INSERT INTO EMPLOYEES
+
+
+
+-------------------------------------------------------------------------------------
+--UPDATE-INSERT SCENARIO  --->'Upsert'
+MERGE INTO TRG_TABLE trg           ---------merge into target table
+USING SRC_TABLE  src               ---------using source table
+ON (trg=src)                        --------based on certain condition
+WHEN MATCHED THEN UPDATE             -------When matched than  update
+SET                                  
+    trg.FNAME=src.FNAME,
+WHEN NOT MATCHED THEN               --------When not matched than insert 
+INSERT ()
+VALUES(src);
+
+

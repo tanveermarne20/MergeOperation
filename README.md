@@ -1,4 +1,5 @@
 <img src="./fi.jpg" style="margin: auto; width: 100%;"> 
+<img src="./Syntaxmerge.jpg" style="margin:auto; width: %;">
 
 ## MergeOperation
 
